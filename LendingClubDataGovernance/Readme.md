@@ -72,7 +72,3 @@ The framework is designed for execution in a modern, scalable cloud environment.
 
   * Extend dataset to implement timeliness and accuracy checks completely for all the CDEs.
   * Extend the code to perform generic DQ checks for other non-CDE elements.
-
------
-
-Would you like me to summarize any specific section of this framework?
