@@ -1,72 +1,54 @@
-# Gauri Rajgopal | Data Governance & Analytics Professional
+# Gauri Rajgopal | Data Analytics & BI
 
-Welcome to my GitHub portfolio! This repository serves as a showcase of my projects and analytical work, demonstrating my expertise in data governance, data quality, regulatory compliance, and deriving actionable insights from complex datasets.
+I turn messy business and risk data into dashboards, models and decisions that people actually use. I have 5+ years in financial services and consulting, and I use AI to build and automate workflows, as in the job alert pipeline below, where an LLM scores each result and I make the final call.
 
-## About Me
+## What I Bring
 
-A results-driven Data Governance and Analytics professional with 5+ years of experience ensuring data integrity, driving regulatory compliance, and delivering actionable insights using tools like Python, SQL, Tableau, and Power BI across diverse data environments. I actively apply AI across my work, from streamlining governance processes and policy reviews to building automation pipelines end-to-end.
+### Dashboards people use on their own
+I built 3 interactive Power BI dashboards with 10+ stakeholders to track at-risk clients for a payroll firm, which enabled earlier outreach and an 18% lift in retention.
 
-Throughout my career at Ernst & Young and ClearOne Advantage, I've focused on:
-* **Driving Regulatory Compliance**: Spearheaded the development of RDARR-driven data governance frameworks aligned with BCBS 239, AIRB, and OSFI B-10, leading to a 20% increase in compliance adherence and the identification of 48 critical gaps.
-* **Enhancing Data Quality**: Identified 12 critical data elements and 10 data issues through Python-based data quality assessments across 15 years of data, significantly improving model input accuracy.
-* **Delivering Actionable Insights**: Developed Power BI dashboards that improved customer retention by ~18% and engineered a predictive churn model with 72% accuracy using XGBoost in Python to enable early risk detection.
-* **Optimizing Operations**: Analyzed dialer performance and revised the customer contact strategy, resulting in a 60% reduction in call frequency while boosting contact and conversion rates by 50%.
+### Predictive modeling
+I analyzed 500,000+ client records to test likely churn indicators and built an XGBoost churn model with 72% accuracy.
 
-## Skills & Expertise
+### Asking what the business really needs
+At ClearOne Advantage the marketing team asked for click metrics. I found they needed revenue from each ad campaign and built Tableau dashboards around the 8 KPIs I defined, fed by Tableau Prep flows that ran every night.
 
-* **Certifications**: Microsoft Security Administrator Associate (SC-401), Microsoft Azure Fundamentals, Microsoft Power BI Data Analyst, DCAM Certified v2, Tableau Desktop Specialist 
-* **Data Governance & Regulatory Frameworks**: DCAM, DAMA-DMBOK, BCBS 239, AIRB, OSFI B-10 
-* **Programming**: Python, R, SAS
-* **Databases & Query Languages**: SQL, T-SQL, MS SQL Server, Snowflake, Teradata 
-* **Data Visualization Tools**: Tableau Desktop, Tableau Prep, Power BI, Advanced MS Excel 
+### Analysis with money attached
+I profiled 200,000+ credit card records in Teradata and Hadoop to size a $500K remediation for a bank and found why the errors happened.
 
-## Projects
+## Featured Projects
 
-Below are some examples of the types of projects you can find in this portfolio. Each project folder will contain relevant code, documentation, and insights.
+### Job Alert Automation Pipeline
+Reads LinkedIn job alert emails, filters them by keyword, scores each role against a resume with an LLM, logs the matches to Google Sheets and emails a daily digest. It runs nightly on GitHub Actions. I built it with AI assistance, and it cut the noise in my own job search so I could focus on the best roles.
 
-* **E-commerce Data Analysis (SQL & Python):** Built a relational database from raw Kaggle datasets (~100K orders), performed data cleaning and transformation, and analyzed customers, orders, products, sellers, and logistics.
+Tools: Python, Gmail API, Groq LLM, GitHub Actions. [View the repository](https://github.com/gauri-12/job_alert_pipeline_clean)
 
-  Key findings: "Bed_bath_table" was the top-performing category, and credit card was the most popular payment method.
+### E-commerce Data Analysis (SQL and Python)
+Built a relational database from about 100K Kaggle orders, cleaned and transformed the data, and analyzed customers, orders, products, sellers and logistics. "Bed_bath_table" was the top category and credit card was the most popular payment method.
 
-  Tools used: SQL, Python
+Tools: SQL, Python. [View the project](SQL_Project)
 
-  Refer folder: SQL_Project
-  
-* **Global Happiness & Socioeconomic Indicators (Python, APIs, Web Scraping):** Integrated heterogeneous datasets (Excel, web-scraped tables, and World Bank API), applied data governance principles for completeness and consistency, and analyzed socioeconomic drivers.
+### Global Happiness and Socioeconomic Indicators
+Combined Excel data, web-scraped tables and World Bank API data, and found a strong positive link between happiness and life expectancy and a negative link with unemployment.
 
-  Key findings: Found a strong positive link between happiness and life expectancy, and a negative correlation with unemployment.
+Tools: Python. [View the project](Python%20Data%20Wrangling)
 
-  Tools used: Python
+### FBI NICS Firearm Background Check Analysis
+Joined FBI background check data with U.S. Census data and found a strong link between state population and checks (r of about 0.85), with peaks in November and December.
 
-  Refer folder: Python Data Wrangling
-  
-* **FBI NICS Firearm Background Check Analysis (Python & Data Governance):** Combined FBI background check data with U.S. Census data, cleaned for reliability, and explored population and seasonal trends.
+Tools: Python. [View the project](Python%20EDA)
 
-  Key findings: Revealed a strong positive correlation (r ≈ 0.85) between state population and background checks, with peaks in November and December.
+## More Projects
+- Data Quality & Governance Framework (Python). [View the project](LendingClubDataGovernance)
 
-  Tools used: Python
+## Skills
 
-  Refer folder: Python EDA
+**Analytics and BI:** SQL, T-SQL, Snowflake, Teradata, Python, R, SAS, Power BI, Tableau, Tableau Prep, Excel, Google Sheets, statistical analysis
 
-* **Data Quality & Governance Framework (Data Governance):** Designed and implemented a scalable, automated Data Quality framework to enforce data integrity across lending club loans data. This project demonstrates the ability to operationalize governance principles at the data layer.
+**Certifications:** Microsoft Power BI Data Analyst, Tableau Desktop Specialist, Microsoft Azure Fundamentals, DCAM Certified v2
 
-  Key findings: Identified critical risk areas by using a 7-point DQ check (Accuracy, Completeness, Consistency, Integrity, Timeliness, Uniqueness and Validity), demonstrating how proactive data quality prevents high-stakes failures in credit risk assessment.
+## Connect
 
-  Tools used: Python, Google Sheets, Canva
+LinkedIn: https://www.linkedin.com/in/gauri-rajgopal/
 
-  Refer folder: LendingClub Data Governance
-
-* **Job Alert Automation Pipeline (Python & AI):** Built an end-to-end automated pipeline to filter LinkedIn job alerts down to roles most relevant to my profile, delivered directly to my GMail inbox. Used AI to define requirements, select tools, build and test the pipeline, and troubleshoot through to deployment.
-
-  Key outcome: Reduced manual job search noise significantly, enabling focused and persistent outreach.
-
-  Tools used: Python, Gmail API, GitHub Actions, AI-assisted development
-  
-  Refer repository: [job_alert_pipeline_clean](https://github.com/gauri-12/job_alert_pipeline_clean)
----
-
-## Connect with Me
-Feel free to connect with me on LinkedIn to discuss data governance, analytics, or potential opportunities. I'm always open to new challenges and collaborations.
-* **LinkedIn**: [https://www.linkedin.com/in/gauri-rajgopal/](https://www.linkedin.com/in/gauri-rajgopal/) 
-* **Email**: gaurirajgopal12@gmail.com
-* [![Tableau Public](https://img.shields.io/badge/Tableau-Public-blue?logo=tableau)](https://public.tableau.com/app/profile/gauri.rajgopal)
+Email: gbr.rajgopal@gmail.com
