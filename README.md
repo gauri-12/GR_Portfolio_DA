@@ -62,7 +62,7 @@ Below are some examples of the types of projects you can find in this portfolio.
 
   Tools used: Python, Gmail API, GitHub Actions, AI-assisted development
   
-  (Private repository — available upon request)
+  Refer repository: [job_alert_pipeline_clean](https://github.com/gauri-12/job_alert_pipeline_clean)
 ---
 
 ## Connect with Me
